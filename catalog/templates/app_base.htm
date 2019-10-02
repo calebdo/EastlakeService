@@ -1,0 +1,33 @@
+<%inherit file="/homepage/templates/base.htm" />
+<%! from catalog import models as cmod %>
+
+
+<%block name ="site_left">
+  <ul id="category-list">
+    <li class="${ 'active' if category is None else '' }"><a href="/catalog/index/">All Products</a></li>
+    %for cat in cmod.Category.objects.order_by('name'):
+      <li class="${ 'active' if category == cat else '' }"><a href="/catalog/index/${ cat.id }">${ cat.name }</a></li>
+    %endfor 
+  </ul>
+</%block>
+
+<%block name="page_title">FOMO</%block>
+
+<%block name="navbar_items">
+
+      
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome, ${ user.first_name }
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/account/index/">Account</a></li>
+            <li><a class="dropdown-item" href="/account/logout/">Logout</a></li>
+          </ul>
+        </li>
+
+</%block>
+
+
+<%block name="login_navbar">
+    <li><a class="dropdown-item" href="/account/login/">Login</a></li>
+ </%block>

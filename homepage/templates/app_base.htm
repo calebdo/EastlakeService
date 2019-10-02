@@ -1,0 +1,27 @@
+<%inherit file="base.htm" />
+
+<%block name="page_title">Community Service Portal</%block>
+
+<%block name="navbar_items">
+
+      
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome, ${ user.first_name }
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/account/index/">Account</a></li>
+            <li><a class="dropdown-item" href="/account/logout/">Logout</a></li>
+          </ul>
+        </li>
+
+</%block>
+
+<%block name="login_navbar">
+    <li><a class="dropdown-item" href="/account/login/">Login</a></li>
+ </%block>
+
+<%block name="header_maintenance">
+<div id="maintenance_message" class="alert alert-danger">
+           Website is currently under maintenance
+    </div>
+</%block>

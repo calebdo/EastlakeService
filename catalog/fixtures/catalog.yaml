@@ -1,0 +1,234 @@
+- model: catalog.category
+  pk: 1
+  fields: {last_modified: ! '2019-03-08 20:12:12.422223', name: Food}
+- model: catalog.category
+  pk: 2
+  fields: {last_modified: ! '2019-03-08 20:12:18.344656', name: Hardware}
+- model: catalog.category
+  pk: 3
+  fields: {last_modified: ! '2019-03-08 20:12:23.064579', name: Household}
+- model: catalog.product
+  pk: 1
+  fields: {category: 1, last_modified: ! '2019-03-08 20:18:38.473352', status: A,
+    name: Apple, description: Eat it, price: '1.50', quantity: 6, reorder_trigger: 3,
+    reorder_quantity: 3}
+- model: catalog.product
+  pk: 2
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Bag, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 3
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Balloon, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 4
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Bananas, description: Use it, price: '0.50', quantity: 20, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 5
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Bed, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 6
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Beef, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 7
+  fields: {category: 1, last_modified: ! '2019-03-08 20:25:42.472156', status: I,
+    name: Bookmark, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 8
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Boom Box, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 9
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Bottle Cap, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 10
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Bow, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 11
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Bowl, description: Use it, price: '0.50', quantity: 2, reorder_trigger: 5,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 12
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Bracelet, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 13
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: A,
+    name: Bread, description: Use it, price: '0.50', quantity: 30, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 14
+  fields: {category: 2, last_modified: ! '2019-03-09 20:25:42.472156', status: I,
+    name: Buckle, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 15
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Button, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 16
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Camera, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 17
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Candle, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 18
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Candy Wrapper, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 19
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Canvas, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 20
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: A,
+    name: Car, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.product
+  pk: 21
+  fields: {category: 3, last_modified: ! '2019-03-08 20:25:42.472156', status: I,
+    name: Carrots, description: Use it, price: '0.50', quantity: 500, reorder_trigger: 100,
+    reorder_quantity: 300}  
+- model: catalog.productimage
+  pk: 1
+  fields: {product: 1, filename: apple.jpg}
+- model: catalog.productimage
+  pk: 2
+  fields: {product: 2, filename: bag.jpg}
+- model: catalog.productimage
+  pk: 3
+  fields: {product: 1, filename: balloon.jpg}
+- model: catalog.productimage
+  pk: 4
+  fields: {product: 2, filename: bananas.jpg}
+- model: catalog.productimage
+  pk: 5
+  fields: {product: 3, filename: bed.jpg}
+- model: catalog.productimage
+  pk: 6
+  fields: {product: 3, filename: beef.jpg}
+- model: catalog.productimage
+  pk: 7
+  fields: {product: 4, filename: bookmark.jpg}
+- model: catalog.productimage
+  pk: 8
+  fields: {product: 4, filename: boom_box.jpg}
+- model: catalog.productimage
+  pk: 9
+  fields: {product: 5, filename: bottle_cap.jpg}
+- model: catalog.productimage
+  pk: 10
+  fields: {product: 5, filename: bow.jpg}
+- model: catalog.productimage
+  pk: 11
+  fields: {product: 6, filename: bowl.jpg}
+- model: catalog.productimage
+  pk: 12
+  fields: {product: 6, filename: bracelet.jpg}
+- model: catalog.productimage
+  pk: 13
+  fields: {product: 7, filename: bread.jpg}
+- model: catalog.productimage
+  pk: 14
+  fields: {product: 7, filename: buckel.jpg}
+- model: catalog.productimage
+  pk: 15
+  fields: {product: 8, filename: button.jpg}
+- model: catalog.productimage
+  pk: 16
+  fields: {product: 8, filename: camera.jpg}
+- model: catalog.productimage
+  pk: 17
+  fields: {product: 9, filename: candle.jpg}
+- model: catalog.productimage
+  pk: 18
+  fields: {product: 9, filename: candy_wrapper.jpg}
+- model: catalog.productimage
+  pk: 19
+  fields: {product: 10, filename: canvas.jpg}
+- model: catalog.productimage
+  pk: 20
+  fields: {product: 10, filename: car.jpg}
+- model: catalog.productimage
+  pk: 21
+  fields: {product: 11, filename: carrots.jpg}
+- model: catalog.productimage
+  pk: 22
+  fields: {product: 11, filename: cat.jpg}
+- model: catalog.productimage
+  pk: 23
+  fields: {product: 12, filename: cell_phone.jpg}
+- model: catalog.productimage
+  pk: 24
+  fields: {product: 12, filename: chair.jpg}
+- model: catalog.productimage
+  pk: 25
+  fields: {product: 13, filename: chapter_book.jpg}
+- model: catalog.productimage
+  pk: 26
+  fields: {product: 13, filename: charger.jpg}
+- model: catalog.productimage
+  pk: 27
+  fields: {product: 14, filename: chocolate.jpg}
+- model: catalog.productimage
+  pk: 28
+  fields: {product: 14, filename: clock.jpg}
+- model: catalog.productimage
+  pk: 29
+  fields: {product: 15, filename: computer.jpg}
+- model: catalog.productimage
+  pk: 30
+  fields: {product: 15, filename: cork.jpg}
+- model: catalog.productimage
+  pk: 31
+  fields: {product: 16, filename: couch.jpg}
+- model: catalog.productimage
+  pk: 32
+  fields: {product: 16, filename: cup.jpg}
+- model: catalog.productimage
+  pk: 33
+  fields: {product: 17, filename: desk.jpg}
+- model: catalog.productimage
+  pk: 34
+  fields: {product: 17, filename: doll.jpg}
+- model: catalog.productimage
+  pk: 35
+  fields: {product: 18, filename: door.jpg}
+- model: catalog.productimage
+  pk: 36
+  fields: {product: 18, filename: drawer.jpg}
+- model: catalog.productimage
+  pk: 37
+  fields: {product: 19, filename: face_wash.jpg}
+- model: catalog.productimage
+  pk: 38
+  fields: {product: 19, filename: food.jpg}
+- model: catalog.productimage
+  pk: 39
+  fields: {product: 20, filename: fork.jpg}
+- model: catalog.productimage
+  pk: 40
+  fields: {product: 20, filename: glasses.jpg}
