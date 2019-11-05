@@ -1,7 +1,26 @@
 <%inherit file="app_base.htm" />
 
-<%block name="site_center">
-    <h1>Eastlake High School Community Service Portal</h1>
-   
-</%block>
 
+<%block name="site_center">
+    <h1>Eastlake High School</h1>
+    <h2>Community Service Portal</h2>
+    <br><br>
+    %if request.user.is_authenticated:
+    <p><a href="/newService/">Submit service information</a></p>
+    %else:    
+    <p>First time? <a href="/create/">Create a new account</a></p>
+        <p>Your username should be the beginning part of your LWSD email address (before @lwsd.org)</P>
+        <br>
+        <form method="POST"> 
+            <table>
+                ${ form.as_table() }
+            </table>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+        <p><a href="/recover/">I forgot my password</a></p>
+    %endif  
+    <br><br>
+    <p>If you have any questions about this website or Eastlake community service, please send us an email at eastlakeservice@gmail.com</p>
+</%block>

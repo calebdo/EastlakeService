@@ -1,0 +1,13 @@
+<%inherit file="app_base.htm" />
+
+<%block name="site_center">
+    <h2>Password Recovery</h2>
+    <form method="POST"> 
+        <table>
+            ${ form.as_table() }
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>    
+    <p>${ error }</p>
+</%block>
