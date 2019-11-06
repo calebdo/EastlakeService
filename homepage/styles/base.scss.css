@@ -65,15 +65,13 @@ main #site_left {
   overflow: auto;
 }
 main #site_center {
-  background-color: #FFCCCC;
-  margin-left: 200px;
-  margin-right: 200px;
+  background-color: lightblue;
   color: black;
   display: block;
   overflow: auto;
 }
 main #site_right {
-  background-color: #CCCCFF;
+  background-color: #777788;
   position: absolute;
   right: 0;
   top: 0;
